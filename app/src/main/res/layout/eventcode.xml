@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/eventcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/editround"
+        android:hint="Masukkan eventcode"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/cekBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonedit"
+        android:text="Check"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center" />
+
+
+
+    <WebView
+        android:id="@+id/UrlEventcode"
+        android:layout_width="0px"
+        android:layout_height="0px" />
+</LinearLayout>
